@@ -1,0 +1,22 @@
+.sidebar{
+width: 25%;
+background-color: #f6f6f6;
+padding: 10px;
+height: calc(100vh - 63px);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.sidebar ul {
+list-style: none;
+}
+.sidebar li a{
+    display: block;
+
+    padding: 7px;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
